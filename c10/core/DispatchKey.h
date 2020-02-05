@@ -57,6 +57,7 @@ enum class DispatchKey : uint8_t {
   //     (templatized kernels specialized for user-defined PRNG class)
   CustomRNGKeyId,
 
+  BackendSelect,
   VariableTensorId,
 
   // TESTING: This is intended to be a generic testing tensor type id.
